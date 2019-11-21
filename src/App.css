@@ -1,0 +1,79 @@
+
+/*remove the bullets and indention from the lists displaying the cases*/
+.listOfCases {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+}
+
+/*add a border surrounding the two major sections on the main screen*/
+.sectionBorder {
+  border-bottom-style: solid;
+  border-width: thin;
+  background-color: white;
+}
+
+/*round out the ends of the instruction and case title sections*/
+.fileContainer {
+  border-radius: 10px;
+  margin: 15px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;	
+  background-color: white;
+}
+
+/*alternate color for case files diplayed in App.js's CaseManagement component.*/
+.mainColor {
+	background-color: #4CC4FE;
+	color: black;
+  	border-radius: 10px;
+  	margin: 10px 5px 5px 5px;
+	padding: 1px 1px 1px 1px;	
+}
+
+/*alternate color for case files diplayed in App.js's CaseManagement component.*/
+.testColor {
+	background-color: #00ACFE;
+	color: black;
+  	border-radius: 10px;
+  	margin: 10px 5px 5px 5px;
+	padding: 1px 1px 1px 1px;
+}
+
+/*alternate color for warning out of time color for case files diplayed in App.js's CaseManagement component.*/
+.warnColor {
+	background-color: gold;
+	color: black;
+  	border-radius: 10px;
+  	margin: 10px 5px 5px 5px;
+	padding: 1px 1px 1px 1px;	
+}
+
+/*alternate color for danger, finish immediate, color for case files diplayed in App.js's CaseManagement component.*/
+.dangerColor {
+	background-color: #C90000;
+	color: black;
+  	border-radius: 10px;
+  	margin: 10px 5px 5px 5px;
+	padding: 1px 1px 1px 1px;	
+}
+
+.dangerColor, .warnColor, .mainColor, .testColor {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*CSS for add new cases button in caseManagment container*/
+.addNewCaseBackground {
+    background-color: green;
+    color: white;
+}
+
+
+
+  @media only screen and (max-width : 465px) {
+	  .smallScreenSmallerCaseContainers {
+		    margin: 10px 5px 0px 5px;
+			padding: 1px 1px 0px 1px;	
+	  }
+  }
+
+
